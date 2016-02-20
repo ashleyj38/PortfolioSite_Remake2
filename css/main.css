@@ -29,6 +29,11 @@
 	
 	margin: 10px 0;
 	padding: 10px 0;
+}
+
+.projects .section {
+	
+	height: 500px !important;
 	
 }
 
