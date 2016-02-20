@@ -6,3 +6,29 @@
 	height: 800px;
 	
 }
+
+.about, .projects p {
+	
+	text-align: center;
+	
+}
+
+.projects img {
+	
+	min-height: 300px;
+	
+}
+
+.sketchbook {
+	
+	height: 100px;
+	
+}
+
+.sketchbook, .polaroid, .text-editor {
+	
+	margin: 10px 0;
+	padding: 10px 0;
+	
+}
+
