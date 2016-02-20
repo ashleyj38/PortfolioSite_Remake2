@@ -1,0 +1,8 @@
+.jumbotron {
+	
+	background-image: url("../images/desktop_1.jpg");
+	width: 100%;
+	background-size: cover;
+	height: 800px;
+	
+}
