@@ -1,39 +1,74 @@
+.jumbotron, .about, .section {
+	font-family: 'Raleway', sans-serif;
+}
+
+.jumbotron h1 {
+	float: right;
+  padding-right:25px;
+}
+
 .jumbotron {
-	
 	background-image: url("../images/desktop_1.jpg");
 	width: 100%;
 	background-size: cover;
 	height: 800px;
-	
+	color: white;
+  font-weight: bold;
+}
+
+.about {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  font-size: 18px;
+  padding: 20px 0;
 }
 
 .about, .projects p {
-	
+
 	text-align: center;
-	
+
 }
 
 .projects img {
-	
+
 	min-height: 300px;
-	
+
 }
 
 .sketchbook {
-	
+
 	height: 100px;
-	
+
 }
 
 .sketchbook, .polaroid, .text-editor {
-	
+
 	margin: 10px 0;
 	padding: 10px 0;
 }
 
 .projects .section {
-	
+
 	height: 500px !important;
-	
+
 }
 
+.navigation {
+
+	border-bottom: 5px solid black;
+	margin-bottom: 4px;
+}
+
+.navigation li {
+	list-style: none;
+	display: inline;
+  padding: 0 10px;
+}
+
+.navigation .right {
+  float: right;
+}
+
+.navigation {
+	width: 100%;
+}
