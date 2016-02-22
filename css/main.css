@@ -17,9 +17,9 @@
 }
 
 .jumbotron img {
-	
-	margin-top: -150px;
-	margin-left: -45px;
+	width: 100%;
+	margin-top: -145px;
+	/*margin-left: -45px;*/
 	opacity: 0;	
 }
 
