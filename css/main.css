@@ -1,4 +1,4 @@
-.jumbotron, .about, .section {
+.jumbotron, .about, .section, .navigation li {
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -16,11 +16,12 @@
   font-weight: bold;
 }
 
-.jumbotron img {
+.jumbotron img, .jumbotron map {
 	width: 100%;
 	margin-top: -145px;
 	/*margin-left: -45px;*/
 	opacity: 0;	
+	size: inherit;
 }
 
 .about {
@@ -70,10 +71,16 @@
 	list-style: none;
 	display: inline;
   padding: 0 10px;
+  font-weight: bold;
+}
+
+.navigation li a {
+	color: black;
 }
 
 .navigation .right {
-  float: right;
+	position: absolute;
+  right:-35%;
 }
 
 .navigation {
